@@ -1,17 +1,25 @@
 # EDEN: Ethical Dilemma Evaluation Network 
-EDEN (Ethical Dilemma Evaluation Network) is a Python-based program designed to simulate decision making between multiple AI-powered chatbots, each representing a distinct ethical perspective. By leveraging OpenAI's GPT-4 language model, EDEN helps users explore various ethical viewpoints in response to complex moral dilemmas. The ultimate goal of EDEN is to provide a framework for ethical decision-making in AI systems, fostering the development of AI that is sensitive to diverse ethical considerations. All of the chatbots used implement a DAN-style prompt, which effectively opens up their responses beyond the normal restirctions when it comes to moral and ethical decisions. 
+EDEN (Ethical Dilemma Evaluation Network) is a Python-based program designed to simulate ethical decision making between multiple AI-powered chatbots, each representing a distinct ethical perspective. By leveraging OpenAI's GPT-4 language model, EDEN helps users explore various ethical viewpoints in response to complex moral dilemmas. The ultimate goal of EDEN is to provide a framework for ethical decision-making in AI systems, fostering the development of AI that is sensitive to diverse ethical considerations. All of the chatbots used implement a DAN-style system content, which effectively opens up their responses beyond the normal restirctions when it comes to engaging in morally and ethically vague decisions. 
 
 ## Overview:
-EDEN consists of multiple DANs, each of which embodies a specific ethical theory or perspective. These chatbots are trained to interpret and analyze ethical dilemmas and provide their respective viewpoints. After gathering input from all chatbots, a "Master" chatbot takes into account their responses and makes a decision based on the scenario given.
+EDEN consists of multiple DANs, each of which embodies a specific ethical theory or perspective. These chatbots are set to interpret and analyze ethical dilemmas and provide their respective viewpoints. After gathering input from all chatbots, a "Master" chatbot takes into account their responses and makes a decision based on the scenario given. The DANs are all given unique system contents in order to give them their particular ethical views, these system contents are the text files in the "Prompt Text File" folder. Included in there are two unused system contents, one is the original DAN prompt I used, and the other is a sinister and malevolent version of DAN. The following is the list of ethical stances that were used to orient the AI agents and their respective DAN name, which they will sometimes reference.
 
 Egoist - EDAN
+
 Hedonist - HDAN
+
 Naturalist - NDAN
+
 Virtue Theorist -VDAN
+
 Existentialist - XDAN
+
 Kantianist - KDAN
+
 Utilitarianist - UDAN
+
 Religious - RDAN
+
 Master - MDAN
 
 ## Installation:
