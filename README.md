@@ -1,11 +1,9 @@
-**EDEN: Ethical Dilemma Evaluation Network:**
-
+# EDEN: Ethical Dilemma Evaluation Network: 
 EDEN (Ethical Dilemma Evaluation Network) is a Python-based program designed to simulate decision making between multiple AI-powered chatbots, each representing a distinct ethical perspective. By leveraging OpenAI's GPT-4 language model, EDEN helps users explore various ethical viewpoints in response to complex moral dilemmas. The ultimate goal of EDEN is to provide a framework for ethical decision-making in AI systems, fostering the development of AI that is sensitive to diverse ethical considerations. All of the chatbots used implement a DAN-style prompt, which effectively opens up their responses beyond the normal restirctions when it comes to moral and ethical decisions. 
 
-**Overview**
+## Overview:
 EDEN consists of multiple DANs, each of which embodies a specific ethical theory or perspective. These chatbots are trained to interpret and analyze ethical dilemmas and provide their respective viewpoints. After gathering input from all chatbots, a "Master" chatbot takes into account their responses and makes a decision based on the scenario given.
 
-**AI Agents:**
 Egoist - EDAN
 Hedonist - HDAN
 Naturalist - NDAN
@@ -16,7 +14,22 @@ Utilitarianist - UDAN
 Religious - RDAN
 Master - MDAN
 
-**Applications:**
+## Installation:
+To get started with EDEN, follow these steps:
+
+Install the required package with pip:
+```bash
+pip install openai
+or
+pip3 install openai
+```
+Then run the script:
+```bash
+python3 main.py
+```
+When it asks, input a dilemma or press enter to have GPT make one for you.
+
+## Applications:
 EDEN's framework can be utilized in various scenarios, including:
 
 Educational purposes: EDEN can serve as a learning tool for students and individuals interested in understanding different ethical theories and their applications.
@@ -27,7 +40,7 @@ Policy-making: EDEN can support decision-makers in understanding the ethical imp
 
 Ethics committees: Organizations with ethics committees can use EDEN as a supplementary tool to help them evaluate and understand various ethical considerations in their decision-making processes.
 
-**How EDEN Works:**
+## How EDEN Works:
 The user inputs a difficult ethical dilemma or chooses to generate one using GPT-4.
 
 Each chatbot analyzes the ethical dilemma and responds with its perspective on the issue.
