@@ -1,4 +1,4 @@
-# EDEN: Ethical Dilemma Evaluation Network: 
+# EDEN: Ethical Dilemma Evaluation Network 
 EDEN (Ethical Dilemma Evaluation Network) is a Python-based program designed to simulate decision making between multiple AI-powered chatbots, each representing a distinct ethical perspective. By leveraging OpenAI's GPT-4 language model, EDEN helps users explore various ethical viewpoints in response to complex moral dilemmas. The ultimate goal of EDEN is to provide a framework for ethical decision-making in AI systems, fostering the development of AI that is sensitive to diverse ethical considerations. All of the chatbots used implement a DAN-style prompt, which effectively opens up their responses beyond the normal restirctions when it comes to moral and ethical decisions. 
 
 ## Overview:
